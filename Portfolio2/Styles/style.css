@@ -8,7 +8,8 @@
 header nav{
     display: flex;
     justify-content: space-between;
-    margin: 51px auto;
+    margin: auto;
+    padding-top: 51px;
     width: 71%;
     max-width: 1140px;
 }
@@ -44,7 +45,7 @@ header nav ul li a{
     font-size: 20px;
     font-weight: bold;
 }
-body{
+header{
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
     background-repeat: no-repeat;
     background-position: 38px 25px, bottom right;
@@ -89,3 +90,81 @@ img{
     height: 676px;
     object-fit: cover;
 }
+main .about{
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    margin: 130px auto 0;
+    background-color: #FFF8F3;
+}
+main section .about-container{
+    text-align: center;
+    margin: 131px 156px;
+    border: none;
+    border-radius: 5px;
+}
+.about-container h3{
+    font-size: 45px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.about-container p{
+    font-size: 18px;
+    color: #757575;
+}
+.about-container .about-info{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+.about-info .info-card{
+    font-size: 20px;
+}
+.about-info .info-card h4{
+    color: #757575;
+}
+.experience .experience-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: auto;
+    padding-top: 130px;
+}
+.experience .experience-container .description{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.experience-container .description h3{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.experience-container .description p{
+    font-size: 18px;
+    color: #757575;
+}
+.card-container{
+    display: flex;
+    gap: 24px;
+}
+.card-container .card{
+    padding: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06);
+}
+.card-container .card img{
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+}
+.card-container .card h4{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.card-container .card p{
+    font-size: 18px;
+    color: #757575;
+}
+
