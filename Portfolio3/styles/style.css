@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+}
+header{
+    background-image: url(../images/banner/banner1.png);
+}
+header .heading{
+    display: flex;
+    justify-content: flex-end;
+}
+header .heading .text{
+    width: 32%;
+    max-width: 525px;
+    margin: 216px 230px 166px;
+}
+header .heading .text h2{
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 24px;
+    text-align: end;
+}
+header .heading .text p{
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 30px;
+    text-align: end;
+}
+header .heading .text .button{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    font-size: 20px;
+    padding: 20px 25px;
+    background-color: #F15B22;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+.failure-box .failure{
+    display: flex;
+    gap: 90px;
+    margin: 130px 200px 0;
+}
+.failure .content{
+    margin: auto;
+}
+.failure .content h3{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.failure .content p{
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.failure li{
+    list-style-type: none;
+}
+.failure li i{
+    color: #16D887;
+}
+.failure .content ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+.about-plan .plan{
+    margin: 130px 230px;
+}
+.about-plan .plan h3{
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.about-plan .plan .card{
+    display: flex;
+    gap: 86px;
+    margin-bottom: 135px;
+}
+.about-plan .plan .card1, .card2, .card3, .card4{
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.card h4{
+    font-size: 30px;
+    color: #151414;
+}
+.card p{
+    font-size: 25px;
+    color: #737272;
+}
+.plan .contact{
+    background: url(../images/gradient2.png), url(../images/watch.png);
+    background-position: absolute;
+    z-index: 1, 2;
+    border: none;
+    border-radius: 10px;
+    
+}
+.plan .contact .mindset{
+    padding: 60px;
+    width: 450px;
+}
+.plan .contact .mindset h4{
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+#call, #subscribe{
+    background-color: #fff;
+    color: #F15B22;
+    font-weight: 600;
+}
+footer .subscribe{
+    background-color: #151414;
+    display: flex;
+    padding: 130px 230px;
+    gap: 330px;
+}
+.subscribe .future h2{
+    font-size: 45px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.subscribe .future p{
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+.subscribe .future img{
+    margin-right: 15px;
+}
+.subscribe .form h4{
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.subscribe .form input[type="email"]{
+    font-size: 18px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #151414;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+
