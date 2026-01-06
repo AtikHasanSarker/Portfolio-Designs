@@ -61,6 +61,7 @@ header .heading .text .button{
     color: #fff; 
 }
 
+/* failure section  */
 .failure-box .failure{
     display: flex;
     gap: 90px;
@@ -69,6 +70,7 @@ header .heading .text .button{
 .failure .content{
     margin: auto;
 }
+
 .failure .content h3{
     font-size: 40px;
     color: #151414;
@@ -82,13 +84,12 @@ header .heading .text .button{
 .failure li{
     list-style-type: none;
 }
-.failure li i{
-    color: #16D887;
-}
 .failure .content ul{
     margin-left: 0;
     padding-left: 0;
 }
+
+/* My plan section  */
 .about-plan .plan{
     margin: 130px 230px;
 }
@@ -146,6 +147,8 @@ header .heading .text .button{
     color: #F15B22;
     font-weight: 600;
 }
+
+/* footer section  */
 footer .subscribe{
     background-color: #151414;
     display: flex;
