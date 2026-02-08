@@ -4,6 +4,8 @@
 body{
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
+  max-width: 1600px;
+  margin: auto;
 }
 /* header */
 #frame1{
@@ -14,6 +16,9 @@ body{
 }
 #frame3{
     background-image: url(../images/banner/banner3.png);
+}
+#frame1, #frame2, #frame3{
+    background-repeat: no-repeat;
 }
 header .heading{
     display: flex;
