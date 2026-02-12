@@ -67,7 +67,14 @@ header .heading .text .button{
     background-color: #005FAC;
     color: #fff; 
 }
-
+/* all image  */
+main section .image{
+    width: 700px;
+}
+main section .image img{
+    width: 100%;
+    border-radius: 50%;
+}
 /* failure section  */
 .failure-box .failure{
     display: flex;
